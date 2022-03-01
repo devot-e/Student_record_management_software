@@ -8,9 +8,9 @@ requirement :
                 mysql-connector-python    https://pypi.org/project/mysql-connector-python/ 
 ```
 we have included .exe compiled by  
-    ```
-    pyinstaller --onefile --console mainscreen.py 
-    ```
+```
+pyinstaller --onefile --console mainscreen.py 
+```
 tested on window 10 
 to run it:
       MySQL shoul be installed and setup must be completed
