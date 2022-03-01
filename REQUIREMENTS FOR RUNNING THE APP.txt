@@ -1,0 +1,17 @@
+REQUIREMENTS FOR RUNNING THE APP :
+
+MySQL shoul be installed and setup must be completed
+Then open mysq enter password
+Then type copy paste following statements .:
+
+CREATE DATABASE IF NOT EXISTS new_rsj ;
+USE new_rsj;
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+srno int PRIMARY KEY,
+name varchar(15) ,
+class enum('9','10','11','12') ,
+sec enum('a','b','c','math','bio','art','comm') ,
+fee_status enum('jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec') DEFAULT 'apr',
+extra_rupee int
+);
