@@ -11,7 +11,7 @@ we have included .exe compiled by
 ```
 pyinstaller --onefile --console mainscreen.py 
 ```
-tested on window 10 
+tested on window 10<br>
 to run it:
       MySQL shoul be installed and setup must be completed
       Then open mysq enter password
