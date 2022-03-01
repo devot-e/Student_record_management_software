@@ -3,7 +3,7 @@ this application allows you to easily manage your students record and their fee 
 
 
 requirement :
-                python packages:
+                python packages:                                                                                                                                                                                   
                     keyboard                   https://pypi.org/project/keyboard/
                     mysql-connector-python    https://pypi.org/project/mysql-connector-python/
 
