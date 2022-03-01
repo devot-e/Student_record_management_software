@@ -2,6 +2,12 @@
 this application allows you to easily manage your students record and their fee record and provide inherent security of mysql
 
 
+requirement :
+                python packages:
+                    keyboard                   https://pypi.org/project/keyboard/
+                    mysql-connector-python    https://pypi.org/project/mysql-connector-python/
+
+
 here are some pics:
 ![image](https://user-images.githubusercontent.com/99308084/156081028-d207f288-d2e3-44d5-b31b-a2b2c7b5314e.png)
 
