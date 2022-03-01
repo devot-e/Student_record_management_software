@@ -13,9 +13,9 @@ pyinstaller --onefile --console mainscreen.py
 ```
 tested on window 10<br>
 to run it:
-      MySQL shoul be installed and setup must be completed<br>
-      Then open mysq enter password<br>
-      Then type copy paste following statements .:<br>
+     &emsp; MySQL shoul be installed and setup must be completed<br>
+      &emsp;Then open mysq enter password<br>
+      &emsp;Then type copy paste following statements .:<br>
 ```
 CREATE DATABASE IF NOT EXISTS new_rsj ;
 USE new_rsj;
