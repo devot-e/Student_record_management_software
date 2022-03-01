@@ -11,7 +11,9 @@ this application allows you to easily manage your students record and their fee 
                     ]
                 ]
 
-we have included .exe tested on window 10 
+we have included .exe compiled by  
+    pyinstaller --onefile --console mainscreen.py    
+tested on window 10 
 to run it:
       MySQL shoul be installed and setup must be completed
       Then open mysq enter password
