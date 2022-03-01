@@ -1,5 +1,5 @@
 # Student_record_management_app
-this application allows you to easily manage your students record and their fee record and provide inherent security of mysql<br>
+### this application allows you to easily manage your students record and their fee record and provide inherent security of mysql<br>
 ```
 requirement :
             python packages:
@@ -12,10 +12,10 @@ we have included .exe compiled by
 pyinstaller --onefile --console mainscreen.py 
 ```
 tested on window 10<br>
-to run it:
-     &emsp; MySQL shoul be installed and setup must be completed<br>
-      &emsp;Then open mysq enter password<br>
-      &emsp;Then type copy paste following statements .:<br>
+to run it:<br>
+     &emsp;&emsp; MySQL shoul be installed and setup must be completed<br>
+     &emsp;&emsp;Then open mysq enter password<br>
+     &emsp;&emsp;Then type copy paste following statements .:<br>
 ```
 CREATE DATABASE IF NOT EXISTS new_rsj ;
 USE new_rsj;
