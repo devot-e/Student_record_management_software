@@ -1,14 +1,12 @@
 # Student_record_management_app
 this application allows you to easily manage your students record and their fee record and provide inherent security of mysql
+```
+requirement :
+            python packages:
 
-
-    ```
-    requirement :
-                python packages:
-                
-                    keyboard                   https://pypi.org/project/keyboard/ ,
-                    mysql-connector-python    https://pypi.org/project/mysql-connector-python/ 
-    ```
+                keyboard                   https://pypi.org/project/keyboard/ ,
+                mysql-connector-python    https://pypi.org/project/mysql-connector-python/ 
+```
 we have included .exe compiled by  
     ```
     pyinstaller --onefile --console mainscreen.py 
