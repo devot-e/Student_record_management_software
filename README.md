@@ -2,34 +2,32 @@
 this application allows you to easily manage your students record and their fee record and provide inherent security of mysql
 
 
-    [requirement :
-                python packages:[
+    ```requirement :
+                python packages:
                 
                     keyboard                   https://pypi.org/project/keyboard/ ,
-                    mysql-connector-python    https://pypi.org/project/mysql-connector-python/
-                                
-                    ]
-                ]
+                    mysql-connector-python    https://pypi.org/project/mysql-connector-python/ ```
 
 we have included .exe compiled by  
-    pyinstaller --onefile --console mainscreen.py    
+    ```pyinstaller --onefile --console mainscreen.py  ```
 tested on window 10 
 to run it:
       MySQL shoul be installed and setup must be completed
       Then open mysq enter password
       Then type copy paste following statements .:
-
-                    CREATE DATABASE IF NOT EXISTS new_rsj ;
-                    USE new_rsj;
-                    DROP TABLE IF EXISTS students;
-                    CREATE TABLE students (
-                    srno int PRIMARY KEY,
-                    name varchar(15) ,
-                    class enum('9','10','11','12') ,
-                    sec enum('a','b','c','math','bio','art','comm') ,
-                    fee_status enum('jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec') DEFAULT 'apr',
-                    extra_rupee int
-                    );
+```
+CREATE DATABASE IF NOT EXISTS new_rsj ;
+USE new_rsj;
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+srno int PRIMARY KEY,
+name varchar(15) ,
+class enum('9','10','11','12') ,
+sec enum('a','b','c','math','bio','art','comm') ,
+fee_status enum('jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec') DEFAULT 'apr',
+extra_rupee int
+);
+```
 here are some pics:
 ![image](https://user-images.githubusercontent.com/99308084/156081028-d207f288-d2e3-44d5-b31b-a2b2c7b5314e.png)
 
