@@ -1,7 +1,8 @@
 # Student_record_management_app
 ### this application allows you to easily manage your students record and their fee record and provide inherent security of mysql<br>
 ```
-requirement :
+this req is not for .exe
+requirement :(for source to run)
             python packages:
 
                 keyboard                   https://pypi.org/project/keyboard/ ,
@@ -12,6 +13,7 @@ we have included .exe compiled by
 pyinstaller --onefile --console mainscreen.py 
 ```
 tested on window 10<br>
+for .exe
 to run it:<br>
      &emsp;&emsp; MySQL shoul be installed and setup must be completed<br>
      &emsp;&emsp;Then open mysq enter password<br>
