@@ -1,4 +1,4 @@
-# Student_record_management_app
+# Student record management app
 ### this application allows you to easily manage your students record and their fee record and provide inherent security of mysql<br>
 ```
 this req is not for .exe
